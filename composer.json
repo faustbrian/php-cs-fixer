@@ -1,0 +1,19 @@
+{
+    "name": "cline/php-cs-fixer",
+    "autoload": {
+        "psr-4": {
+            "Cline\\PhpCsFixer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Brian Faust",
+            "email": "brian@cline.sh"
+        }
+    ],
+    "require": {
+        "friendsofphp/php-cs-fixer": "^3.87",
+        "erickskrauch/php-cs-fixer-custom-fixers": "^1.3",
+        "kubawerlos/php-cs-fixer-custom-fixers": "^3.33"
+    }
+}
